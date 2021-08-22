@@ -1,4 +1,4 @@
-;(function ($) {
+; (function ($) {
   $.fn.circleMagic = function (options) {
 
     var width, height, canvas, ctx, animateHeader = true;
@@ -111,7 +111,7 @@
           that.color = randomColor();
         }
         else {
-          that.color = settings.color;
+          that.color = randomColor();
         }
       }
 
